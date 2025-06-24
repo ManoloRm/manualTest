@@ -1,0 +1,1824 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Jira</title>
+    <meta http-equiv="Content-Type" Content="application/vnd.ms-word; charset=UTF-8">
+        <style type="text/css">
+
+.tableBorder, .grid
+{
+    background-color: #fff;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.tableBorder td, .grid td
+{
+    vertical-align: top;
+    padding: 2px;
+    border: 1px solid #ccc;
+}
+
+.noPadding
+{
+    padding: 0 !important;
+}
+
+h3 .subText
+{
+    font-size: 60%;
+    font-weight: normal;
+}
+
+.tabLabel
+{
+    font-weight: bold;
+    border: 1px solid #ccc;
+    border-bottom:none;
+    padding: 2px;
+    display: inline;
+}
+
+td.blank
+{
+    padding: 0;
+    margin: 0;
+}
+
+.blank td
+{
+    border: none;
+}
+
+#descriptionArea
+{
+    margin: 0;
+    padding: 2px;
+    border: 1px solid #ccc;
+}
+
+hr
+{
+    border-top:1px solid #aaa;
+}
+
+hr.fullcontent
+{
+  height: 15px;
+  padding: 10px 0;
+  background: #fff url('https://manurm29.atlassian.net/images/icons/hr.gif') no-repeat scroll center;
+}
+
+</style>
+
+</head>
+<body>
+
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <h3 class="formtitle">
+                        [BUG-9]&nbsp;<a href="https://manurm29.atlassian.net/browse/BUG-9">Botón de reserva bloqueado si falta poner la licencia de conducir </a>
+            <span class="subText">
+               Creada: 27/abr/25                   &nbsp;Actualizada: 27/abr/25
+
+                                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Estado:</b></td>
+        <td width="80%">Tareas por hacer</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Proyecto:</b></td>
+        <td width="80%"><a href="https://manurm29.atlassian.net/secure/BrowseProject.jspa?id=10001">BugsUrbanR</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Componentes:</b></td>
+            <td>
+                            Ninguno
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Versiones afectadas:</b></td>
+            <td>
+                            Ninguno
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Versiones corregidas:</b></td>
+            <td>
+                            Ninguno
+                </td>
+    </tr>
+    
+    
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Tipo:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Error
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Prioridad:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                Medium
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Informador:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                        
+                
+        
+            <a class="user-hover" rel="712020:0624dc1e-6bbd-4c4f-97c8-669df7052632"
+                id="word_reporter_712020:0624dc1e-6bbd-4c4f-97c8-669df7052632"
+                href="https://manurm29.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3A0624dc1e-6bbd-4c4f-97c8-669df7052632">
+                    Manuel Rodriguez
+                </a>
+
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Persona asignada:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                    sin asignar
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Resolución:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+            				Sin resolver
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Votos:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Etiquetas:</b>
+        </td>
+        <td id="labels-10100-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            Ninguno
+                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Trabajo restante estimado:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Desconocido
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Tiempo Trabajado:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Desconocido
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Estimación original:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Desconocido
+            		</td>
+    </tr>
+    
+    	<tr>
+
+		<td bgcolor="#f0f0f0" width="20%" valign="top">
+			<b>Entorno:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" colspan="3">
+            <p>Firefox 1920x1080</p>
+		</td>
+	</tr>
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+        
+    
+
+
+    
+</table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Descripción</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <p>Al momento de llenar las direcciones he intentar reservar sin haber agregado la licencia de conducir, la aplicación nos debería mostrar el formulario para agregar una. </p>
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+<hr class='fullcontent'><br /><br style='page-break-before:always;'/><br />
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <h3 class="formtitle">
+                        [BUG-8]&nbsp;<a href="https://manurm29.atlassian.net/browse/BUG-8">Agregar caracteres especiales en los espacios a llenar</a>
+            <span class="subText">
+               Creada: 26/abr/25                   &nbsp;Actualizada: 27/abr/25
+
+                                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Estado:</b></td>
+        <td width="80%">Tareas por hacer</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Proyecto:</b></td>
+        <td width="80%"><a href="https://manurm29.atlassian.net/secure/BrowseProject.jspa?id=10001">BugsUrbanR</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Componentes:</b></td>
+            <td>
+                            Ninguno
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Versiones afectadas:</b></td>
+            <td>
+                            Ninguno
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Versiones corregidas:</b></td>
+            <td>
+                            Ninguno
+                </td>
+    </tr>
+    
+    
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Tipo:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Error
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Prioridad:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                Highest
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Informador:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                        
+                
+        
+            <a class="user-hover" rel="712020:0624dc1e-6bbd-4c4f-97c8-669df7052632"
+                id="word_reporter_712020:0624dc1e-6bbd-4c4f-97c8-669df7052632"
+                href="https://manurm29.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3A0624dc1e-6bbd-4c4f-97c8-669df7052632">
+                    Manuel Rodriguez
+                </a>
+
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Persona asignada:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                    sin asignar
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Resolución:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+            				Sin resolver
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Votos:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Etiquetas:</b>
+        </td>
+        <td id="labels-10099-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            Ninguno
+                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Trabajo restante estimado:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Desconocido
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Tiempo Trabajado:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Desconocido
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Estimación original:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Desconocido
+            		</td>
+    </tr>
+    
+    	<tr>
+
+		<td bgcolor="#f0f0f0" width="20%" valign="top">
+			<b>Entorno:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" colspan="3">
+            <p>Firefox 1920x1080</p>
+		</td>
+	</tr>
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+        
+    
+
+
+    
+</table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Descripción</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <p>Al momento de agregar una tarjeta se pueden poner caracteres especiales así como ?=</p>
+
+<p>pasos para replicar el bug</p>
+
+<ul>
+	<li>agregar tarjeta</li>
+	<li>llenar el campo de número de tarjeta haciendo uso de caracteres especiales así como ?'¡'“</li>
+</ul>
+
+
+<p>Se esperaría que marcara un error en el campo donde esta el error</p>
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+<hr class='fullcontent'><br /><br style='page-break-before:always;'/><br />
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <h3 class="formtitle">
+                        [BUG-7]&nbsp;<a href="https://manurm29.atlassian.net/browse/BUG-7">Cantidad de valores para el campo código</a>
+            <span class="subText">
+               Creada: 25/abr/25                   &nbsp;Actualizada: 27/abr/25
+
+                                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Estado:</b></td>
+        <td width="80%">Tareas por hacer</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Proyecto:</b></td>
+        <td width="80%"><a href="https://manurm29.atlassian.net/secure/BrowseProject.jspa?id=10001">BugsUrbanR</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Componentes:</b></td>
+            <td>
+                            Ninguno
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Versiones afectadas:</b></td>
+            <td>
+                            Ninguno
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Versiones corregidas:</b></td>
+            <td>
+                            Ninguno
+                </td>
+    </tr>
+    
+    
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Tipo:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Error
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Prioridad:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                Highest
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Informador:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                        
+                
+        
+            <a class="user-hover" rel="712020:0624dc1e-6bbd-4c4f-97c8-669df7052632"
+                id="word_reporter_712020:0624dc1e-6bbd-4c4f-97c8-669df7052632"
+                href="https://manurm29.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3A0624dc1e-6bbd-4c4f-97c8-669df7052632">
+                    Manuel Rodriguez
+                </a>
+
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Persona asignada:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                    sin asignar
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Resolución:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+            				Sin resolver
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Votos:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Etiquetas:</b>
+        </td>
+        <td id="labels-10067-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            Ninguno
+                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Trabajo restante estimado:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Desconocido
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Tiempo Trabajado:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Desconocido
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Estimación original:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Desconocido
+            		</td>
+    </tr>
+    
+    	<tr>
+
+		<td bgcolor="#f0f0f0" width="20%" valign="top">
+			<b>Entorno:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" colspan="3">
+            <p>Firefox 1920x1080</p>
+		</td>
+	</tr>
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+                <tr>
+            <td bgcolor="#f0f0f0" width=20% valign=top>
+                <b>Adjuntos:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top">
+                                    <img src="https://manurm29.atlassian.net/images/icons/attach/image.gif" height="16" width="16" border="0" alt="Archivo PNG">
+                    image-20250425-162501.png &nbsp;&nbsp;&nbsp;
+                                    <img src="https://manurm29.atlassian.net/images/icons/attach/image.gif" height="16" width="16" border="0" alt="Archivo PNG">
+                    image-20250425-162551.png &nbsp;&nbsp;&nbsp;
+                            </td>
+        </tr>
+        
+    
+
+
+    
+</table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Descripción</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <p>AL agregar una tarjeta con valores de más o de menos en el apartado de código</p>
+
+
+<p>Pasos para ejecutar el bug</p>
+
+<ul>
+	<li>dar clic en agregar tarjeta</li>
+	<li>ingresar el número de tarjeta</li>
+	<li>ingresar un numero fuera de los límites para el código</li>
+</ul>
+
+
+<p>Debería de marcar error al no coincidir con los límites establecidos </p>
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+<hr class='fullcontent'><br /><br style='page-break-before:always;'/><br />
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <h3 class="formtitle">
+                        [BUG-6]&nbsp;<a href="https://manurm29.atlassian.net/browse/BUG-6">Caracteres erróneos al agregar tarjeta </a>
+            <span class="subText">
+               Creada: 25/abr/25                   &nbsp;Actualizada: 27/abr/25
+
+                                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Estado:</b></td>
+        <td width="80%">Tareas por hacer</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Proyecto:</b></td>
+        <td width="80%"><a href="https://manurm29.atlassian.net/secure/BrowseProject.jspa?id=10001">BugsUrbanR</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Componentes:</b></td>
+            <td>
+                            Ninguno
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Versiones afectadas:</b></td>
+            <td>
+                            Ninguno
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Versiones corregidas:</b></td>
+            <td>
+                            Ninguno
+                </td>
+    </tr>
+    
+    
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Tipo:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Error
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Prioridad:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                Highest
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Informador:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                        
+                
+        
+            <a class="user-hover" rel="712020:0624dc1e-6bbd-4c4f-97c8-669df7052632"
+                id="word_reporter_712020:0624dc1e-6bbd-4c4f-97c8-669df7052632"
+                href="https://manurm29.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3A0624dc1e-6bbd-4c4f-97c8-669df7052632">
+                    Manuel Rodriguez
+                </a>
+
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Persona asignada:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                    sin asignar
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Resolución:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+            				Sin resolver
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Votos:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Etiquetas:</b>
+        </td>
+        <td id="labels-10066-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            Ninguno
+                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Trabajo restante estimado:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Desconocido
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Tiempo Trabajado:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Desconocido
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Estimación original:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Desconocido
+            		</td>
+    </tr>
+    
+    	<tr>
+
+		<td bgcolor="#f0f0f0" width="20%" valign="top">
+			<b>Entorno:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" colspan="3">
+            <p>Firefox 1920x1080</p>
+		</td>
+	</tr>
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+                <tr>
+            <td bgcolor="#f0f0f0" width=20% valign=top>
+                <b>Adjuntos:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top">
+                                    <img src="https://manurm29.atlassian.net/images/icons/attach/image.gif" height="16" width="16" border="0" alt="Archivo PNG">
+                    image-20250425-160211.png &nbsp;&nbsp;&nbsp;
+                            </td>
+        </tr>
+        
+    
+
+
+    
+</table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Descripción</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <p>Es posible ingresar valores no establecidos para agregar una tarjeta, tanto en el número como en el código </p>
+
+<p>Pasos </p>
+
+<ul>
+	<li>Dar clic en agregar tarjeta</li>
+	<li>ingresa caracteres especial o letras en el campo numero de tarjeta</li>
+	<li>ingresa caracteres especial o letras en el campo código</li>
+</ul>
+
+
+<p>Debería de limitar los caracteres que se pueden introducir ene este campo </p>
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+<hr class='fullcontent'><br /><br style='page-break-before:always;'/><br />
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <h3 class="formtitle">
+                        [BUG-5]&nbsp;<a href="https://manurm29.atlassian.net/browse/BUG-5">Confirmación de tarjeta agregada </a>
+            <span class="subText">
+               Creada: 24/abr/25                   &nbsp;Actualizada: 27/abr/25
+
+                                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Estado:</b></td>
+        <td width="80%">Tareas por hacer</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Proyecto:</b></td>
+        <td width="80%"><a href="https://manurm29.atlassian.net/secure/BrowseProject.jspa?id=10001">BugsUrbanR</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Componentes:</b></td>
+            <td>
+                            Ninguno
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Versiones afectadas:</b></td>
+            <td>
+                            Ninguno
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Versiones corregidas:</b></td>
+            <td>
+                            Ninguno
+                </td>
+    </tr>
+    
+    
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Tipo:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Error
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Prioridad:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                High
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Informador:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                        
+                
+        
+            <a class="user-hover" rel="712020:0624dc1e-6bbd-4c4f-97c8-669df7052632"
+                id="word_reporter_712020:0624dc1e-6bbd-4c4f-97c8-669df7052632"
+                href="https://manurm29.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3A0624dc1e-6bbd-4c4f-97c8-669df7052632">
+                    Manuel Rodriguez
+                </a>
+
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Persona asignada:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                    sin asignar
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Resolución:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+            				Sin resolver
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Votos:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Etiquetas:</b>
+        </td>
+        <td id="labels-10034-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            Ninguno
+                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Trabajo restante estimado:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Desconocido
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Tiempo Trabajado:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Desconocido
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Estimación original:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Desconocido
+            		</td>
+    </tr>
+    
+    	<tr>
+
+		<td bgcolor="#f0f0f0" width="20%" valign="top">
+			<b>Entorno:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" colspan="3">
+            <p>Firefox 1920x1080</p>
+		</td>
+	</tr>
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+                <tr>
+            <td bgcolor="#f0f0f0" width=20% valign=top>
+                <b>Adjuntos:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top">
+                                    <img src="https://manurm29.atlassian.net/images/icons/attach/image.gif" height="16" width="16" border="0" alt="Archivo PNG">
+                    image-20250424-075741.png &nbsp;&nbsp;&nbsp;
+                                    <img src="https://manurm29.atlassian.net/images/icons/attach/image.gif" height="16" width="16" border="0" alt="Archivo PNG">
+                    image-20250424-075752.png &nbsp;&nbsp;&nbsp;
+                            </td>
+        </tr>
+        
+    
+
+
+    
+</table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Descripción</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <p>Según los requisitos al agregar una tarjeta tiene que aparecer un texto de “tarjeta agregada”<br/>
+Pasos para recrear el bug </p>
+
+<ul>
+	<li>interactuar con el botón agregar tarjeta</li>
+	<li>llenar los espacios solicitados</li>
+	<li>dar clic en el botón guardar</li>
+</ul>
+
+
+<p>Debería de aparecer un flotante con una frase de que se agrego la tarjeta adecuadamente </p>
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+<hr class='fullcontent'><br /><br style='page-break-before:always;'/><br />
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <h3 class="formtitle">
+                        [BUG-4]&nbsp;<a href="https://manurm29.atlassian.net/browse/BUG-4">Al reservar un automóvil no se visualiza en el mapa</a>
+            <span class="subText">
+               Creada: 24/abr/25                   &nbsp;Actualizada: 27/abr/25
+
+                                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Estado:</b></td>
+        <td width="80%">Tareas por hacer</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Proyecto:</b></td>
+        <td width="80%"><a href="https://manurm29.atlassian.net/secure/BrowseProject.jspa?id=10001">BugsUrbanR</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Componentes:</b></td>
+            <td>
+                            Ninguno
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Versiones afectadas:</b></td>
+            <td>
+                            Ninguno
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Versiones corregidas:</b></td>
+            <td>
+                            Ninguno
+                </td>
+    </tr>
+    
+    
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Tipo:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Error
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Prioridad:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                Low
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Informador:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                        
+                
+        
+            <a class="user-hover" rel="712020:0624dc1e-6bbd-4c4f-97c8-669df7052632"
+                id="word_reporter_712020:0624dc1e-6bbd-4c4f-97c8-669df7052632"
+                href="https://manurm29.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3A0624dc1e-6bbd-4c4f-97c8-669df7052632">
+                    Manuel Rodriguez
+                </a>
+
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Persona asignada:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                    sin asignar
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Resolución:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+            				Sin resolver
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Votos:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Etiquetas:</b>
+        </td>
+        <td id="labels-10033-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            Ninguno
+                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Trabajo restante estimado:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Desconocido
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Tiempo Trabajado:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Desconocido
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Estimación original:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Desconocido
+            		</td>
+    </tr>
+    
+    	<tr>
+
+		<td bgcolor="#f0f0f0" width="20%" valign="top">
+			<b>Entorno:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" colspan="3">
+            <p>Firefox 1920x1080</p>
+		</td>
+	</tr>
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+                <tr>
+            <td bgcolor="#f0f0f0" width=20% valign=top>
+                <b>Adjuntos:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top">
+                                    <img src="https://manurm29.atlassian.net/images/icons/attach/image.gif" height="16" width="16" border="0" alt="Archivo PNG">
+                    image-20250424-075450.png &nbsp;&nbsp;&nbsp;
+                            </td>
+        </tr>
+        
+    
+
+
+    
+</table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Descripción</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <p>Con forme a los diseños, al ingresar las direcciones deben aparecer los automóviles disponibles cercanos y distinguir al más cercano aumentando su tamaño.</p>
+
+<p>pasos </p>
+
+<ul>
+	<li>ingresar las direcciones</li>
+	<li>seleccionar una tarifa</li>
+</ul>
+
+
+<p>Debería ser visible los automóviles al momento de poner las direcciones, haciendo más visible por tamaño el más cercano</p>
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+<hr class='fullcontent'><br /><br style='page-break-before:always;'/><br />
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <h3 class="formtitle">
+                        [BUG-3]&nbsp;<a href="https://manurm29.atlassian.net/browse/BUG-3">No se actualiza la tarifa al añadir requisitos en e viaje</a>
+            <span class="subText">
+               Creada: 23/abr/25                   &nbsp;Actualizada: 27/abr/25
+
+                                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Estado:</b></td>
+        <td width="80%">Tareas por hacer</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Proyecto:</b></td>
+        <td width="80%"><a href="https://manurm29.atlassian.net/secure/BrowseProject.jspa?id=10001">BugsUrbanR</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Componentes:</b></td>
+            <td>
+                            Ninguno
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Versiones afectadas:</b></td>
+            <td>
+                            Ninguno
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Versiones corregidas:</b></td>
+            <td>
+                            Ninguno
+                </td>
+    </tr>
+    
+    
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Tipo:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Error
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Prioridad:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                Highest
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Informador:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                        
+                
+        
+            <a class="user-hover" rel="712020:0624dc1e-6bbd-4c4f-97c8-669df7052632"
+                id="word_reporter_712020:0624dc1e-6bbd-4c4f-97c8-669df7052632"
+                href="https://manurm29.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3A0624dc1e-6bbd-4c4f-97c8-669df7052632">
+                    Manuel Rodriguez
+                </a>
+
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Persona asignada:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                    sin asignar
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Resolución:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+            				Sin resolver
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Votos:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Etiquetas:</b>
+        </td>
+        <td id="labels-10008-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            Ninguno
+                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Trabajo restante estimado:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Desconocido
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Tiempo Trabajado:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Desconocido
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Estimación original:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Desconocido
+            		</td>
+    </tr>
+    
+    	<tr>
+
+		<td bgcolor="#f0f0f0" width="20%" valign="top">
+			<b>Entorno:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" colspan="3">
+            <p>Firefox 1920x1080</p>
+		</td>
+	</tr>
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+                <tr>
+            <td bgcolor="#f0f0f0" width=20% valign=top>
+                <b>Adjuntos:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top">
+                                    <img src="https://manurm29.atlassian.net/images/icons/attach/image.gif" height="16" width="16" border="0" alt="Archivo PNG">
+                    image-20250423-013915.png &nbsp;&nbsp;&nbsp;
+                                    <img src="https://manurm29.atlassian.net/images/icons/attach/image.gif" height="16" width="16" border="0" alt="Archivo PNG">
+                    imagen_2025-04-22_194042357.png &nbsp;&nbsp;&nbsp;
+                            </td>
+        </tr>
+        
+    
+
+
+    
+</table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Descripción</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <p>Al momento de seleccionar los requisitos para el viaje no se el valor de la tarifa no se actualiza</p>
+
+<p>Pasos una ves añadido las direcciones </p>
+
+<ul>
+	<li>Seleccionar una tarifa</li>
+	<li>Agregar un requisito para el viaje</li>
+</ul>
+
+
+<p>Debería actualizarse el precio con forme a los requisitos agregados </p>
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+<hr class='fullcontent'><br /><br style='page-break-before:always;'/><br />
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <h3 class="formtitle">
+                        [BUG-2]&nbsp;<a href="https://manurm29.atlassian.net/browse/BUG-2">Agregar tarjeta fuera de los limites establecidos</a>
+            <span class="subText">
+               Creada: 23/abr/25                   &nbsp;Actualizada: 27/abr/25
+
+                                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Estado:</b></td>
+        <td width="80%">Tareas por hacer</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Proyecto:</b></td>
+        <td width="80%"><a href="https://manurm29.atlassian.net/secure/BrowseProject.jspa?id=10001">BugsUrbanR</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Componentes:</b></td>
+            <td>
+                            Ninguno
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Versiones afectadas:</b></td>
+            <td>
+                            Ninguno
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Versiones corregidas:</b></td>
+            <td>
+                            Ninguno
+                </td>
+    </tr>
+    
+    
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Tipo:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Error
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Prioridad:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                Highest
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Informador:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                        
+                
+        
+            <a class="user-hover" rel="712020:0624dc1e-6bbd-4c4f-97c8-669df7052632"
+                id="word_reporter_712020:0624dc1e-6bbd-4c4f-97c8-669df7052632"
+                href="https://manurm29.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3A0624dc1e-6bbd-4c4f-97c8-669df7052632">
+                    Manuel Rodriguez
+                </a>
+
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Persona asignada:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                    sin asignar
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Resolución:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+            				Sin resolver
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Votos:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Etiquetas:</b>
+        </td>
+        <td id="labels-10007-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            Ninguno
+                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Trabajo restante estimado:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Desconocido
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Tiempo Trabajado:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Desconocido
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Estimación original:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Desconocido
+            		</td>
+    </tr>
+    
+    	<tr>
+
+		<td bgcolor="#f0f0f0" width="20%" valign="top">
+			<b>Entorno:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" colspan="3">
+            <p>Firefox 1920x1080</p>
+		</td>
+	</tr>
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+                <tr>
+            <td bgcolor="#f0f0f0" width=20% valign=top>
+                <b>Adjuntos:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top">
+                                    <img src="https://manurm29.atlassian.net/images/icons/attach/image.gif" height="16" width="16" border="0" alt="Archivo PNG">
+                    image-20250423-013550.png &nbsp;&nbsp;&nbsp;
+                            </td>
+        </tr>
+        
+    
+
+
+    
+</table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Descripción</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <p>En el menú para agregar tarjeta, en los requisitos nos mencionan  que tiene que ser de 12<br/>
+Pasos</p>
+
+<ul>
+	<li>Agregar tarjeta</li>
+	<li>Introducir un número de tarjeta con valores mayores o menores a 12</li>
+</ul>
+
+
+<p>Debería mostrar error en el cuadro de texto recordando la cantidad de valores aceptados </p>
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+<hr class='fullcontent'><br /><br style='page-break-before:always;'/><br />
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <h3 class="formtitle">
+                        [BUG-1]&nbsp;<a href="https://manurm29.atlassian.net/browse/BUG-1">Error de funcionabilidad del botón cancelar</a>
+            <span class="subText">
+               Creada: 23/abr/25                   &nbsp;Actualizada: 27/abr/25
+
+                                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Estado:</b></td>
+        <td width="80%">En curso</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Proyecto:</b></td>
+        <td width="80%"><a href="https://manurm29.atlassian.net/secure/BrowseProject.jspa?id=10001">BugsUrbanR</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Componentes:</b></td>
+            <td>
+                            Ninguno
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Versiones afectadas:</b></td>
+            <td>
+                            Ninguno
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Versiones corregidas:</b></td>
+            <td>
+                            Ninguno
+                </td>
+    </tr>
+    
+    
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Tipo:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Error
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Prioridad:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                High
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Informador:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                        
+                
+        
+            <a class="user-hover" rel="712020:0624dc1e-6bbd-4c4f-97c8-669df7052632"
+                id="word_reporter_712020:0624dc1e-6bbd-4c4f-97c8-669df7052632"
+                href="https://manurm29.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3A0624dc1e-6bbd-4c4f-97c8-669df7052632">
+                    Manuel Rodriguez
+                </a>
+
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Persona asignada:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                    sin asignar
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Resolución:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+            				Sin resolver
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Votos:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Etiquetas:</b>
+        </td>
+        <td id="labels-10006-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            Ninguno
+                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Trabajo restante estimado:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Desconocido
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Tiempo Trabajado:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Desconocido
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Estimación original:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Desconocido
+            		</td>
+    </tr>
+    
+    	<tr>
+
+		<td bgcolor="#f0f0f0" width="20%" valign="top">
+			<b>Entorno:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" colspan="3">
+            <p>Firefox 1920x1080</p>
+		</td>
+	</tr>
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+                <tr>
+            <td bgcolor="#f0f0f0" width=20% valign=top>
+                <b>Adjuntos:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top">
+                                    <img src="https://manurm29.atlassian.net/images/icons/attach/image.gif" height="16" width="16" border="0" alt="Archivo PNG">
+                    image-20250423-013037.png &nbsp;&nbsp;&nbsp;
+                            </td>
+        </tr>
+        
+    
+
+
+    
+</table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Descripción</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <p>No es posible interactuar o dar clic en el botón “Cancelar”</p>
+
+<p>Pasos para producir el error</p>
+
+<ul>
+	<li>Ingresar todos los datos requeridos</li>
+	<li>Dar clic en reservar</li>
+	<li>Dar clic en cancelar</li>
+</ul>
+
+
+<p>Debería de cancelar el viaje al momento de hacer uso del botón </p>
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+<hr class='fullcontent'><br /><br style='page-break-before:always;'/><br />Generado a las Tue Jun 24 01:48:03 UTC 2025 por Manuel Rodriguez usando JIRA 1001.0.0-SNAPSHOT#100284-rev:d907bde92b738b372e98e5ffd846ee5173c38df9.
+
+</body>
+</html>
